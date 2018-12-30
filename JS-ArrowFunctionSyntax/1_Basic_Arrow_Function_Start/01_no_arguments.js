@@ -1,10 +1,11 @@
 const name = "Andrew";
 
-function sayName() {
+//basics of arrow function
+const sayName  = () => {
     const message = "My name is " + name;
     console.log(message);
 }
 
-function sayBye() {
+const sayBye = () => {
   console.log("Bye " + name);  
-}
+} 
