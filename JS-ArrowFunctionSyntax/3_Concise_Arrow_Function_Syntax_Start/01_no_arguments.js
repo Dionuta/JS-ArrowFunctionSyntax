@@ -5,4 +5,4 @@ const sayName = () => {
     console.log(message);
 }
 
-const sayBye = () => console.log("Bye " + name);  
+const sayBye = () =>  console.log("Bye " + name);  
